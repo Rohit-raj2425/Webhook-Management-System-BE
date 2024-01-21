@@ -19,30 +19,26 @@ This is the backend part of the Webhook Management System, built using Node.js a
 ### Setup
 1. **Clone the Repository**
 
-  git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
+  - git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
 
 2. **Install Dependencies**
 
-  cd backend
-  npm install
+  - cd backend
+  - npm install
 
-# 3)Environment Variables
-Create a .env file with the following contents:
+3. **Environment Variables**
+Create a `.env` file with the following contents:
 
-makefile
-Copy code
-DATABASE_URL=mongodb://localhost:27017/webhookDB
-TOKEN_SECRET=your_jwt_secret
-REDIS_URL=redis://127.0.0.1:6379
+-REDIS_URL=
+-REDIS_PORT=
+-MONGODB_URI=
+-TOKEN_SECRET=
 
-# 4) Start the Backend Server
-
-sql
-Copy code
+4. **Start the Backend Server**
 npm start
 
 
-Testing
-Ensure MongoDB and Redis servers are running.
-Use Postman or similar tools to test the API endpoints.
+## Testing
+- Ensure MongoDB and Redis servers are running.
+- Use Postman or similar tools to test the API endpoints.
 
