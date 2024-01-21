@@ -18,26 +18,28 @@ This is the backend part of the Webhook Management System, built using Node.js a
 
 ### Setup
 1. **Clone the Repository**
-
+```
   - git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
-
+```
 2. **Install Dependencies**
-
+```
   - cd backend
   - npm install
+```
 
 3. **Environment Variables**
-   ```
     Create a `.env` file with the following contents:
-   ```
-
+```
 - REDIS_URL=
 - REDIS_PORT=
 - MONGODB_URI=
 - TOKEN_SECRET=
+```
 
 4. **Start the Backend Server**
+```
 - npm start
+```
 
 
 ## Testing
