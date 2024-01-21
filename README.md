@@ -29,13 +29,13 @@ This is the backend part of the Webhook Management System, built using Node.js a
 3. **Environment Variables**
 ## Create a `.env` file with the following contents:
 
--REDIS_URL=
--REDIS_PORT=
--MONGODB_URI=
--TOKEN_SECRET=
+- REDIS_URL=
+- REDIS_PORT=
+- MONGODB_URI=
+- TOKEN_SECRET=
 
 4. **Start the Backend Server**
--npm start
+- npm start
 
 
 ## Testing
