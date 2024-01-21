@@ -19,14 +19,12 @@ This is the backend part of the Webhook Management System, built using Node.js a
 ### Setup
 1. **Clone the Repository**
 
-git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
+  git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
 
-# 2)Install Dependencies
+2. **Install Dependencies**
 
-bash
-Copy code
-cd backend
-npm install
+  cd backend
+  npm install
 
 # 3)Environment Variables
 Create a .env file with the following contents:
