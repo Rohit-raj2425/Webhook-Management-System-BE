@@ -27,7 +27,9 @@ This is the backend part of the Webhook Management System, built using Node.js a
   - npm install
 
 3. **Environment Variables**
-## Create a `.env` file with the following contents:
+   ```
+    Create a `.env` file with the following contents:
+   ```
 
 - REDIS_URL=
 - REDIS_PORT=
