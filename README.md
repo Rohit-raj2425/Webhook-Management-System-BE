@@ -3,25 +3,22 @@
 This is the backend part of the Webhook Management System, built using Node.js and Express. It handles API requests, manages webhook subscriptions, processes incoming webhook events, and interacts with MongoDB for data persistence.
 
 ## Features
-RESTful API endpoints.
-JWT-based user authentication.
-MongoDB integration for storing data.
-Webhook event processing with retry logic.
-Error handling and validation.
+- RESTful API endpoints.
+- JWT-based user authentication.
+- MongoDB integration for storing data.
+- Webhook event processing with retry logic.
+- Error handling and validation.
 
 ## Installation
 
 ### Prerequisites
-Node.js
-MongoDB
-Redis server (for Bull queue, if used)
+- Node.js
+- MongoDB
+- Redis server (for Bull queue, if used)
 
-# Setup
+### Setup
+1. **Clone the Repository**
 
-# 1) Clone the Repository
-
-bash
-Copy code
 git clone https://github.com/Rohit-raj2425/Webhook-Management-System-BE.git
 
 # 2)Install Dependencies
